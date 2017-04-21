@@ -1,0 +1,29 @@
+
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 628.4 628.4" height="100%" id="Layer_1" version="1.1" viewBox="0 0 628.4 628.4" width="100%" x="0px" xml:space="preserve" y="0px">
+<symbol id="fleet-matrix" viewBox="-321 -251 1000 600">
+<rect fill="grey" height="600" width="1000" x="-321" y="-251"/>
+<g id="cells_2_" transform="scale(1,-1)">
+<polygon fill="#FFFF00" points="-150.5,149.5 -250.5,149.5 -250.5,249.5 -150.5,249.5    " stroke="#666666" stroke-miterlimit="10"/>
+<polygon fill="#FFFF00" opacity="0" points="-50.5,149.5 -150.5,149.5 -150.5,249.5  -50.5,249.5   " stroke="#000000" stroke-miterlimit="10"/>
+<polygon fill="#FFFF00" opacity="0" points="49.5,149.5 -50.5,149.5 -50.5,249.5  49.5,249.5   " stroke="#000000" stroke-miterlimit="10"/>
+<polygon fill="#FFFF00" points="149.5,149.5 49.5,149.5 49.5,249.5 149.5,249.5   " stroke="#000000" stroke-miterlimit="10"/>
+<polygon fill="#FFFF00" opacity="0.1" points="249.5,149.5 149.5,149.5 149.5,249.5  249.5,249.5   " stroke="#000000" stroke-miterlimit="10"/>
+<polygon fill="#FFFF00" points="-150.5,49.5 -250.5,49.5 -250.5,149.5 -150.5,149.5    " stroke="#000000" stroke-miterlimit="10"/>
+<polygon fill="#FFFF00" opacity="0.27" points="-50.5,49.5 -150.5,49.5 -150.5,149.5  -50.5,149.5   " stroke="#000000" stroke-miterlimit="10"/>
+<polygon fill="#FFFF00" opacity="0" points="49.5,49.5 -50.5,49.5 -50.5,149.5  49.5,149.5   " stroke="#000000" stroke-miterlimit="10"/>
+<polygon fill="#FFFF00" opacity="0.1" points="149.5,49.5 49.5,49.5 49.5,149.5  149.5,149.5   " stroke="#000000" stroke-miterlimit="10"/>
+<polygon fill="#FFFF00" points="249.5,49.5 149.5,49.5 149.5,149.5 249.5,149.5   " stroke="#000000" stroke-miterlimit="10"/>
+<polygon fill="#FFFF00" points="-150.5,-50.5 -250.5,-50.5 -250.5,49.5 -150.5,49.5    " stroke="#000000" stroke-miterlimit="10"/>
+<text fill="#666666" font-family="'Verdana'" font-size="18" transform="matrix(1 0 0 -1 -320.3799 199.5)">FW-DAO</text>
+<text fill="#666666" font-family="'Verdana'" font-size="18" id="FW-LUC_1_" transform="matrix(1 0 0 -1 -320.3799 99.5)">FW-ALM</text>
+<text fill="#666666" font-family="'Verdana'" font-size="18" id="FW-PAU_1_" transform="matrix(1 0 0 -1 -320.3799 -0.5)">FW-CHA</text>
+<polygon fill="#FFFF00" opacity="0.1" points="-50.5,-50.5 -150.5,-50.5 -150.5,49.5  -50.5,49.5   " stroke="#000000" stroke-miterlimit="10"/>
+<polygon fill="#FFFF00" points="49.5,-50.5 -50.5,-50.5 -50.5,49.5 49.5,49.5   " stroke="#000000" stroke-miterlimit="10"/>
+<polygon fill="#FFFF00" points="149.5,-50.5 49.5,-50.5 49.5,49.5 149.5,49.5   " stroke="#000000" stroke-miterlimit="10"/>
+<polygon fill="#FFFF00" opacity="0" points="249.5,-50.5 149.5,-50.5 149.5,49.5  249.5,49.5   " stroke="#000000" stroke-miterlimit="10"/>
+</g>
+</symbol>
+<g transform="matrix(1 0 0 1 350.3762 362.3762)">
+</g>
+<use height="304.5" id="matrix_anim" overflow="visible" transform="matrix(1 0 0 1 350.3762 362.3762)" width="571" x="-321" xlink:href="#fleet-matrix" y="-251"/>
+</svg>
