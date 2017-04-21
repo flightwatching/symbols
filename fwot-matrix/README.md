@@ -1,8 +1,10 @@
-#fwot-matrix
+# fwot-matrix
 
 `fwot-matrix` displays a table where
 * lines are a set of fwots
 * columns are configurable with your own formulas.
+
+The matrix is often used in conjuction with [day-line](../day-line/)
 
 ## How to use the matrix in a dashboard
 `fwot-matrix` is a symbol. It can be included in any SVG dashbaord using the <symbol> and accessing it with
@@ -10,9 +12,9 @@
 ```
 <use id="matrix_anim" ... xlink:href="#fwot-matrix">
 </use>
+<--The content of the symbol has no importance, as it is completely removed at fwot-matrix initialization.-->
 ```
 
-The content of the symbol has no importance, as it is completely removed at fwot-matrix initialization.
 
 Now you have 2 functions to handle the matrix: `init` and `updateMatrix`
 
