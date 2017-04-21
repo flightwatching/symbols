@@ -40,3 +40,17 @@ matrix_anim.updateMatrix(
   refDate,  //null of a string to which we have to request the params
   prefilter // function(fwot, rows) that is called before updating the matrix. returns the table of data to use in the matrix (see columns structure) );
 ```
+
+### the column structure
+each column is described in a structure. This structure is passed at the matrix initialization `init` in an array.
+
+```
+{
+  name,    // the header of the column
+  tooltip, //tooltip that pops up when hovering each cell. It can contain linebreaks as \n
+  domain,  //value domain to the specified array of numbers. The array must contain two or more elements. If the elements in the given array are not numbers, they will be coerced to numbers.
+  colors,  //colors for the specified array of values. The array must contain two or more strings, and can be HEX values or HTML color codes
+  formula, //function(data, fwot) that returns a number or a string. It will compute the cell's value. fwot is the current fwot and data is a data structure (see below)
+  click    //function(fwotReg, timespan) that is called when a cell is clicked. fwotReg is the registration of the fwot and timespan the current min max date array (see updateMatrix)
+}
+```
